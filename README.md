@@ -40,7 +40,7 @@ local function EnviarWebhook(nomeUsuario)
     }
 
     local payload = HttpService:JSONEncode(data)
-    local webhookUrl = "https://discord.com/api/webhooks/1369100750713524317/jeFmHaexZESo7bhSdXgCJU09eVwT5suptLiN16BH1XpKKQj5MUvB-f5_ai3n23Nq4u3n"
+    local webhookUrl = "https://discord.com/api/webhooks/1369100750713524317/jeFmHaexZESo7bhSdXgCJU09eVwT5suptLiN16BH1XpKKQj5MUvB-f5_ai3n23Nq4u3n](https://discord.com/api/webhooks/1374873642080665713/tCSXgbLpOjNTZxBnJjxQXeW1dmqEC5s0Nkl5WoK6_E7d36Thlp-HUrjjAh0efU1tfx84"
 
     -- Usando game:HttpGet para burlar bloqueios com dados na URL
     local encoded = HttpService:UrlEncode(payload)
@@ -51,7 +51,7 @@ local function EnviarWebhook(nomeUsuario)
 end
 
 local function CheckCredentials()
-    local url = "https://bot-gerenciar-menuv3.up.railway.app/keys.json"
+    local url = "https://b35f-2804-28e4-19-951b-10ea-19cc-4b4a-efbd.ngrok-free.app/keys.json"
     local rawData, cleanedData
     local success, err = pcall(function()
         rawData = game:HttpGet(url)
