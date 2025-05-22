@@ -156,21 +156,11 @@ local function CreatePremiumTab()
         })
 
         PrivateTab:AddButton({
-            Name = "🟡 Abrir Stand Menu V3.4",
+            Name = "🟢 Abrir Stand Menu V3.4",
             Callback = function()
                 loadstring(game:HttpGet('https://raw.githubusercontent.com/Stand-Software/Stand-Menu-3.4/refs/heads/main/README.md'))()
             end
         })
-
-        PrivateTab:AddButton({
-            Name = "🟢 Abrir Stand Menu V3.3",
-            Callback = function()
-                loadstring(game:HttpGet('https://raw.githubusercontent.com/Stand-Software/Stand-Menu-3.3/refs/heads/main/README.md'))()
-            end
-        })
-    end
-end
-
 
 -- 🔁 Verificação contínua
 spawn(function()
