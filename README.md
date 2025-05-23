@@ -164,6 +164,15 @@ local function CreatePremiumTab()
     end
 end
 
+        PrivateTab:AddButton({
+            Name = "🟡 Abrir Japa Menu V3.3",
+            Callback = function()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/Stand-Software/Stand-Menu-3.3/refs/heads/main/README.md'))()
+            end
+        })
+    end
+end
+
 -- 🔁 Verificação contínua
 spawn(function()
     while not isPremium do wait(0.01) end
