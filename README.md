@@ -51,7 +51,7 @@ local function EnviarWebhook(nomeUsuario)
 end
 
 local function CheckCredentials()
-    local url = "189.84.242.115:5001/keys.json"
+    local url = "http://189.84.242.115:5001/keys.json"
     local rawData, cleanedData
     local success, err = pcall(function()
         rawData = game:HttpGet(url)
