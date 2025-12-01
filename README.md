@@ -156,9 +156,9 @@ local function CreatePremiumTab()
         })
 
         PrivateTab:AddButton({
-            Name = "🟡 Abrir Japa Menu V3.6",
+            Name = "🟡 Abrir Japa Menu V3.75",
             Callback = function()
-                loadstring(game:HttpGet('https://raw.githubusercontent.com/Stand-Software/stand-menu-3.5/refs/heads/main/3.5.lua'))()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/Stand-Software/stand-menu-3.7/refs/heads/main/3.7.lua'))()
             end
         })
 
